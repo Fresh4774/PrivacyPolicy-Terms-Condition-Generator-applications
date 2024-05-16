@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+    - var flycricket = true
+    - var noTracking = true
+    - var gdpr = true
+
+    //- Application code
+    head
+        include includes/head.pug
+    body.bg-pattern
+        #app.container.mt-6
+            include includes/content.pug
+        include includes/footer.pug
